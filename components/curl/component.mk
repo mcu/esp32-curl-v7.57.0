@@ -1,0 +1,4 @@
+COMPONENT_SRCDIRS:=lib lib/vauth lib/vtls
+CFLAGS+=-DHAVE_CONFIG_H -DBUILDING_LIBCURL
+COMPONENT_PRIV_INCLUDEDIRS=../zlib ./lib ./lib/vauth ./lib/vtls
+COMPONENT_DEPENDS=zlib

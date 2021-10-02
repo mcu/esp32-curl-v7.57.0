@@ -1,0 +1,437 @@
+menu "libCURL Certificates for mbedtls"
+
+	config PD_C_ACCVRAIZI
+		bool "ACCVRAIZI"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_AC_RAIZ
+		bool "AC RAIZ"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_ACTALIS
+		bool "Actalis"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_ADDTRUST
+		bool "AddTrust"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_AFFIRMTRUST
+		bool "AffirmTrust"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_AMAZON
+		bool "Amazon"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_ATOS
+		bool "Atos"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_AUTORIDAD_IZENPE
+		bool "Autoridad + izenpe.com"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_BALTIMORE_CYBERTRUST
+		bool "Baltimore CyberTrust"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_BUYPASS
+		bool "Buypass"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_CA_DISIG
+		bool "CA Disig"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_CAMERFIRMA
+		bool "Camerfirma"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_CERTIGNA_CYBERTRUST_CERTSIGN_CHAMBERS
+		bool "Certigna + Cybertrust + certSIGN + Chambers of Commerce"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_CERTIMONIS
+		bool "Certimonis"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_CERTPLUS
+		bool "Certplus"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_CERTUM
+		bool "Certum"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_CFCA
+		bool "CFCA"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_CHAMBERSIGN_ECC_ACC
+		bool "Chambersign + ECC-ACC"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_COMODO
+		bool "Comodo"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_DEUTSCHETELEKOM_EPKI
+		bool "DeutscheTelekom + ePKI"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_DIGICERT
+		bool "DigiCert"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_DST
+		bool "DST"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_D_TRUST
+		bool "D-TRUST"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_EE_CERTIFICATION
+		bool "EE Certification"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_ENTRUST
+		bool "Entrust"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_E_TUGRA
+		bool "E-Tugra"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_GEOTRUST
+		bool "GeoTrust"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_GLOBALSIGN
+		bool "GlobalSign"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_GODADDY
+		bool "GoDaddy"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_HELLENIC
+		bool "Hellenic"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_IDENTRUST
+		bool "IdenTrust"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_ISRG
+		bool "ISRG"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_LUXTRUST
+		bool "LuxTrust"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_NETLOCKARANY_HONGKONGPOST
+		bool "NetLock Arany + Hongkong Post"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_NETWORK_SOLUTIONS
+		bool "Network Solutions"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_OISTE
+		bool "OISTE"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_OPENTRUST
+		bool "Opentrust"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_PSCPROCERT
+		bool "PSCProcert"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_QUOVADIS
+		bool "QuoVadis"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_SECURE_GLOBAL
+		bool "Secure Global"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_SECURESIGN_ACEDICOM_MICROSEC
+		bool "SecureSign + ACEDICOM + Microsec"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_SECURETRUST
+		bool "SecureTrust"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_SECURITYCOMMUNICATION
+		bool "SecurityCommunication"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_SONERA
+		bool "Sonera"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_STAAT_DER_NEDERLADEN
+		bool "Staat der Nederladen"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_STARFIELD
+		bool "Starfield"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_STARTCOM
+		bool "StartCom"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_SWISSSIGN
+		bool "SwissSign"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_SZAFIR
+		bool "SZAFIR"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_TAIWANGRCA
+		bool "TaiwanGRCA"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_TELIASONERA
+		bool "TeliaSonera"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_THAWTE
+		bool "thawte"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_TRUSTIS
+		bool "Trustis"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_T_TELESEC
+		bool "T-TeleSec"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_TUBITAK
+		bool "TUBITAK"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_TURKTRUST
+		bool "TURKTRUST"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_TWCA
+		bool "TWCA"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_USERTRUST
+		bool "USERTrust"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_VERISIGN
+		bool "Verisign"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_VISA
+		bool "Visa"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_WOSIGN
+		bool "WoSign"
+		default n
+		help
+			Enable to support this certificate
+
+
+	config PD_C_XRAMP
+		bool "XRamp"
+		default n
+		help
+			Enable to support this certificate
+
+endmenu
+

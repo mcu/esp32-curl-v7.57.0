@@ -1,0 +1,15 @@
+menu "CURL Test-Project Configuration"
+
+config PREDEFINED_SSID
+    string "WIFI SSID"
+	default "TP-LINK"
+	help
+		SSID (WIFI AP name) to connect to 
+
+config PREDEFINED_SSID_PWD
+    string "WIFI Password"
+	default ""
+	help
+		WIFI AP access password
+
+endmenu
